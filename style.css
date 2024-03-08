@@ -1,0 +1,315 @@
+/* stopped at navigation button for moving to the top of the page after scrolling down */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#arrow_one{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    background-color: red;
+    width: 50px;
+    color: white;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    order: 0;
+    box-shadow: 1px 1px 5px 0.5px rgb(28, 20, 20);
+}
+#arrow_one>i{
+    margin: 14px 15.5px;
+    font-size: 25px;
+}
+
+/* #arrow_two{
+    position: fixed;
+    bottom: 14px;
+    right: 32px;
+    background-color: red;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 20%;
+} */
+/* #arrow_one:hover~#arrow_two{
+    position: fixed;
+    bottom: 14px;
+    right: 32px;
+    background-color: red;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 20%;
+    order: 3;
+    transition: all .5s ;
+} */
+
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    height: 55px;
+}
+label{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans Unicode';
+    padding-left: 150px;
+    line-height: 55px;
+    color: red;
+    cursor: pointer;
+}
+nav ul li{
+    float: right;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Lucida Sans Unicode';
+    cursor: pointer;
+}
+nav ul li a{
+    color: rgba(0, 0, 0, 0.632);
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: black;
+    font-weight: 600;
+    transition: all .5s;
+}
+a,.active{
+    color: black;
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 9px 30px;
+    font-family: 'Lucida Sans Unicode';
+    margin-right: 20px;
+    color: white;
+    background-color: red;
+    border: 0px solid red;
+    cursor: pointer;
+}
+button:hover{
+    transition: all .5s;
+    box-shadow: 1px 1px 5px 0.5px rgb(28, 20, 20);
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)), url(./images/Assorted\ pizza.jpeg) center/cover no-repeat fixed;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    color: white;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.enjoy{
+    font-family:  Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.made{
+    font-family: Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: white; 
+}
+.explore{
+    background-color: transparent;
+    border: 1px solid white;
+    position: relative;
+    right: 120px;
+    top: 40px;
+}
+.explore a{
+    color: white;
+}
+.reserve{
+    position: relative;
+    left: 120px;
+    bottom: 2px;
+}
+.reserve a{
+    color: white;
+}
+
+/* 
+.Au{
+    position: relative;
+    left: 870px;
+    bottom: 310px;
+    font-size: 17px;
+}
+.about_us h1{
+    position: relative;
+    left: 870px;
+    bottom: 280px;
+    font-family: Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Verdana, sans-serif;
+}
+.p_one{
+    position: relative;
+    left: 870px;
+    bottom: 260px;
+    font-size: 20px;
+
+}
+.p_two{
+    position: relative;
+    left: 870px;
+    bottom: 240px;
+    font-size: 20px;
+
+}
+.about_us button a{
+    color: white;
+    letter-spacing: 1px;
+} */
+/* img{
+    position: relative;
+    left: 50px;
+    top: 59px;
+} */
+
+.learn>a{
+    color: white;
+}
+.para{
+    position: relative;
+    right: 180px;
+    top: 200px;
+    float: right;
+}
+.para>button{
+    margin-top: 30px;
+}
+
+#about_us>img{
+    position: relative;
+    left: 132px;
+    /* top: 59px; */
+    margin: 100px 0;
+}
+
+#menu_side{
+    background-color: bisque;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Verdana, sans-serif;
+}
+
+/* Bean burger */
+.bean_burger{
+    width: 500px;
+    /* background-color: yellow; */
+    height: 330px;
+}
+.bean_burger img{
+    width: 380px;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    top: 58px;
+}
+.bean_burger>h3{
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+.bean_burger>p{
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+.bean_burger >button{
+    position: relative;
+    left: 293px;
+    top: 20px;
+}
+
+/* Burger_Cratella */
+
+.Burger_Cratella{
+    position: relative;
+    width: 500px;
+    /* background-color: yellow; */
+    height: 330px;
+    left: 500px;
+    bottom: 330px;
+}
+.Burger_Cratella img{
+    width: 380px;
+    position: absolute;
+    border-radius: 20px;
+    left: 50px;
+    top: 58px;
+}
+.Burger_Cratella>h3{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+}
+.Burger_Cratella>p{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.Burger_Cratella>button{
+    position: absolute;
+    top: 280px;
+    left: 293px;
+}
+
+/* Pizza */
+
+.Pizza{
+    position: relative;
+    width: 500px;
+    /* background-color: yellow; */
+    height: 330px;
+    left: 1000px;
+    bottom: 660px;
+}
+.Pizza img{
+    width: 350px;
+    position: absolute;
+    border-radius: 20px;
+    left: 50px;
+    top: 53px;
+}
+.Pizza>h3{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+}
+.Pizza>p{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.Pizza>button{
+    position: absolute;
+    top: 280px;
+    left: 263px;
+}
